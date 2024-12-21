@@ -8,7 +8,7 @@ model = LinearRegression()
 
 model.fit(X,Y)
 
-X_ = 6
+X_ = np.array([6, 7, 8, 9, 10])
 y = model.predict(X_)
 
 print(y)
